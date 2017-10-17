@@ -16,15 +16,30 @@
  padding-right: 10px;
  border: 6px dashed brown;
  }
-  
+ .picture {
+ width: 310px;
+ height: 200px;
+ border: 6px inset wheat;
+ }
+ .main {
+       margin: auto;
+       width: 400px;
+       background-color: light yelow;
+       border: 3px solid brown;
+       padding: 25px
+ }
+.important {
+            font-weight: bold;
+            text-decoration: underline;
+}
 </style>
   </head>
 
-  <body>
+  <body><div class="main">
     <h1>My Favorite Animal</h1>
-      <img src="images/bear.jpg"/>
-    <div id="text"><p>a bear standing in a river holding a fish.</p></div>
+      <img class="picture" src="images/bear.jpg"/>
+    <div id="text"><p><span class="important">a bear standing in a river holding a fish.</span></p></div>
       <p><a href="index.html">back to home page</a></p>
-  </body>
+    </div> </body>
 
 </html> 
