@@ -1,1 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Page Title Goes Here</title>
+    <link rel="stylesheet" type="text/css" href="css/solitaire.css" />
+  </head>
+
+  <body>
+    <!--  Page content goes here -->
+  </body>
+
+</html>
+
+
+
+.felt {
+ width: 300px;
+ height: 300px;
+ background-image: url('../img/felt.jpg');
+ background-color: green;
+ position: relative;
+ top: 25px;
+ left: 25px;
+}
+
+.back {
+ position: absolute;
+ top: 40px;
+ left: 110px;
+ z-index: 1;
+} 
+
+.gradient {
+ background-image: url('../img/gradient.jpg');
+ background-repeat: repeat-x;
+ background-color: gray;
+}
+
+<div class="felt">
+</div>
+
+<img src="images/card.png" class="back" width="64" height="100" alt="Back of card" />
+
+<body class="gradient">
+
 
