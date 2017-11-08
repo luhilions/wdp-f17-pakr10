@@ -18,6 +18,32 @@
  left: 110px;
  z-index: 1;
 } 
+.ten {
+ position: absolute;
+ top: 40px;
+ left: 110px;
+ z-index: 1;
+} 
+
+.jack {
+ position: absolute;
+ top: 40px;
+ left: 110px;
+ z-index: 1;
+} 
+
+.queen {
+ position: absolute;
+ top: 40px;
+ left: 110px;
+ z-index: 1;
+} 
+.king {
+ position: absolute;
+ top: 40px;
+ left: 110px;
+ z-index: 1;
+} 
 
 .gradient {
  background-image: url('../images/gradient.jpg');
