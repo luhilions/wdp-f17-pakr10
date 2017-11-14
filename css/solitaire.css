@@ -19,7 +19,7 @@
  z-index: 1;
 } 
 .ten {
- position: absolute;
+ position: relative;
  top: 40px;
  left: 110px;
  z-index: 1;
@@ -33,7 +33,7 @@
 } 
 
 .queen {
- position: absolute;
+ position: relative;
  top: 40px;
  left: 110px;
  z-index: 1;
