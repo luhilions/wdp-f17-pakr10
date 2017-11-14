@@ -10,33 +10,33 @@
 }
 
 .back {
- position: relative;
+ position: absolute;
  top: 40px;
  left: 110px;
  z-index: 1;
 } 
 .ten {
- position: relative;
+ position: absolute;
  top: 50px;
  left: 110px;
  z-index: 2;
 } 
 
 .jack {
- position: relative;
+ position: absolute;
  top: 60px;
  left: 110px;
  z-index: 3;
 } 
 
 .queen {
- position: relative;
+ position: absolute;
  top: 70px;
  left: 110px;
  z-index: 4;
 } 
 .king {
- position: relative;
+ position: absolute;
  top: 80px;
  left: 110px;
  z-index: 5;
