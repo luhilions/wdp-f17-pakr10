@@ -7,14 +7,17 @@
     <title>Page Title Goes Here</title>
     
   </head>
-<style>
-      background-color: grey;
-    </style>
+   <style>
+      .feedback {
+                background-color: grey;
+     }
+     
+   </style>
   <body>
 <form method="post" action="process.php">
 <fieldset>
 <legend>give us ur feedback</legend>
-  <form method="post" action="process.php">
+  <form  class="feedback" method="post" action="process.php">
 full Name: <input type="text" size="20" name="fullname" /><br />
 Year:<br />
 <input type="radio" name="year" value="freshman" />freshman<br />
@@ -40,9 +43,7 @@ comments here</textarea>
 <input type="submit" value="submit" />
 </form>
 </fieldset>
-    <form class="feedback">  
-
-
+      
   </body>
 
 </html>
