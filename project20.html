@@ -5,10 +5,19 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Page Title Goes Here</title>
+    <style>
+      background-color: grey:
+    </style>
   </head>
 
   <body>
-<form class="feedback">  
+<form method="post" action="process.php">
+<fieldset>
+<legend>give us ur feedback</legend>
+...
+</fieldset>
+</form>
+    <form class="feedback">  
 
 <form method="post" action="process.php">
 full Name: <input type="text" size="20" name="fullname" /><br />
@@ -32,6 +41,9 @@ Quarter:<br />
 comments:<br />
 <textarea name="comments" rows="8" cols="30">
 comments here</textarea>
+...
+</textarea><br />
+<input type="submit" value="submit" />
 </form>
   </body>
 
